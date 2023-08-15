@@ -3,25 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clase 2 - Ejemplo 5</title>
     <style>
-
-        #primerparrafo{
-            color: blue;
+        body{
+            background-color: rgb(227, 212, 193);
         }
+        h1{
+            color: rgba(255, 217, 0, 0.8);
+            /* 
+                Establecemos el color de fondo
+            */
+            background-color: rgb(104, 74, 20);
+            /* 
+                Alineación para texto: left, right o center
+            */               
+            text-align: center;
+        }
+        /* 
+            Hacemos referencia al elemento cuya id es primerparrafo
+            Ponemos # para las ids en CSS
+            No podemos repetir el mismo nombre de id en la misma página.
+        */         
+        #primerparrafo{
+            color: rgb(36, 59, 120);
+
+        }
+        /* 
+            Hacemos referencia a los elementos cuya clase es parrafo
+            Ponemos . para las clases en CSS
+            Podemos usar muchas veces la clase en la misma página
+        */
         .parrafo{
-            color: red;
+            color: brown;
         }
     </style>
 </head>
 <body>
-
+    <!-- 
+        Soy un comentario de HTML
+     -->
     <h1>Soy el título del Mundo</h1>
     <h2>Soy el subtítulo del Mundo</h2>
     <p id="primerparrafo">Soy el párrafo del mundo.</p>
     <p class="parrafo">Lorem ipsum felicidad sit amet consectetur adipisicing elit. Eum, quidem esse!</p>
     <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptas blanditiis?</p>    
     <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde natus dicta.</p>
-    
 </body>
 </html>

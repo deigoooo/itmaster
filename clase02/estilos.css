@@ -1,0 +1,18 @@
+/* 
+    Comentario de CSS
+    Seleccionamos el elemento h1 por su nombre sin < >   
+    Ubicar los estilos en un CSS externo es ideal para sitios de múltiples páginas    
+*/
+h1{
+    color: brown;
+}
+
+h2{
+    color: blue;
+}
+/* 
+    La siguiente regla afecta a todos los p del documento que utilice esta hoja de estilos
+*/
+p{
+    color:coral;
+}
