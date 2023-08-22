@@ -1,0 +1,53 @@
+h1,h2,h3{
+    color: brown;
+    /* 
+        Elegimos una tipografía para los títulos, dentro de las "safe fonts". Las fuentes que comunmente están en el sistema y sus posibles reemplazos
+    */       
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* 
+        Espacio entre palabras
+    */
+    word-spacing: 10px;
+}
+
+h1{
+    /* 
+        Cambiar el tamaño de la letra
+        En principio usamos px, pero hay más opciones.
+        rem es una de las más usadas para maquetas más avanzadas
+    */     
+    font-size: 40px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    /* 
+        Espesor de la fuente de 100 a 900 o bold
+    */      
+    font-weight: bold;
+    /* 
+        Alto de la línea
+    */
+    line-height: 140%;
+
+    /* 
+        La separación de párrafos
+        40px arriba y abajo
+        0 a los laterales
+    */
+    margin: 40px 0;
+    /* 
+        Espacio entre letras
+    */
+    letter-spacing: 1px;
+}

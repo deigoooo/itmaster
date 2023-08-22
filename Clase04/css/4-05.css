@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(28, 2, 52);
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+#contenedor{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#contenedor h1{
+    font-size: 50px;
+}
+
+#contenedor h2{
+    font-size: 40px;
+}
+
+#contenedor h3{
+    font-size: 30px;
+}
+
+#contenedor p{
+    text-align: left;
+    font-size: 18px;
+}
+
+#contenedor img{
+    width: 50%;
+}
+
+.recuadro{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+#contenedor .recuadro p{
+    text-align: center;
+}

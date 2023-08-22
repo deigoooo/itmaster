@@ -1,0 +1,16 @@
+body{
+    background-color: lightgray;
+}
+#contenedor{
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+.home h1{
+    color: blueviolet;
+}
+
+p{
+    text-align: left;   
+}

@@ -1,0 +1,29 @@
+#contenedor{
+    width: 700px;
+    /* 
+        Centramos
+    */
+    margin: 0 auto;
+    text-align: center;
+    /* 
+        border:
+        grosor de la línea
+        tipo de línea
+        color
+    
+    */
+    border: 10px solid brown;
+    /* 
+        Redondear bordes
+    */
+    border-radius: 20px;
+    /* 
+        Distancia entre el contenido y el borde de la caja
+    */
+    padding: 20px;
+    /* 
+        Recomendable ponerlo cuando se usa padding y/o border
+        Permite que esos valores no cuente "para afuera" como el margin.
+    */
+    box-sizing: border-box;      
+}

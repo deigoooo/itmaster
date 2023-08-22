@@ -1,0 +1,28 @@
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    /* 
+        Para quitar los puntos delante de los li de la lista
+    */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a{
+    text-decoration: none;
+    background: navy;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 
+        Agrandamos la caja de cada enlace de los ítem de menú
+        5px arriba y abajo
+        20px a los costados
+    */
+    padding: 5px 20px;
+}
+
+#menu li a:hover{
+    background-color: darkorange;
+}

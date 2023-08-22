@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes y divs</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        #caja{
+            /* 
+                El ancho de la caja
+            */
+            width: 50%;
+            /* 
+                margin es el margen
+                De esta manera 0 es para arriba y abajo
+                y 25% es para los laterales
+            */            
+            margin: 0 25%;
+            /* 
+                Centrar el texto y en este contexto la imagen
+            */
+            text-align: center;
+        }
+        /* 
+            Texto de la caja queda alineado a la izquierda
+        */
+        #caja p{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        div nos permite agrupar dentro de una "caja" elementos de html
+     -->      
+    <div id="caja">
+        <h1>La página de Dami</h1>
+        <!-- 
+            <img> no requiere etiqueta de cierre obligatorio en HTML no estricto
+            Etiqueta imagen para ubicar una imagen en el html
+            src la ruta del archivo de imagen
+            alt es el texto alternativo (si la imagen no se puede ver o para lectores de pantalla, por ejemplo)
+            title se pone para desceribir la imagen (si se posiciona el mouse encima se puede ver)
+        -->     
+        <img src="img/damicursos.jpg" alt="Texto alternativo" title="Título de la imagen">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel, amet quam delectus ullam laudantium enim, quasi sit soluta ratione explicabo dolores corporis modi magnam, asperiores excepturi ad commodi! Excepturi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, suscipit odit!</p>
+        <a href="clase3-2.html"><img src="img/300x300.jpg" alt="La imagen de 300"></a>    
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, deleniti cum?</p>        
+    </div>
+
+</body>
+</html>
