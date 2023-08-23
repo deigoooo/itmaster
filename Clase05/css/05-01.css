@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    /* 
+        Duplicamos los tamaños del font-size de las fuentes
+     */
+    font-size: 2rem;
+}
+
+#contenedor{
+    width: 100%;
+}
+
+/* 
+    Le hablamos a todas las cajas que sean hijas directas de contenedor
+*/
+
+#contenedor > *{
+    float: left;
+    text-align: center;
+    /* 
+        En este caso permite que el aside no "caiga" cuando agrego el border-right a main
+    */
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+}
+
+nav{
+    width: 100%;    
+    border-bottom: 1px solid lightgray;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;    
+}
+
+main{
+    width: 70%;
+    border-right: 1px solid lightgray;
+}
+
+
+/* 
+    Creamos un div para contener a los artículos y ponerlos de a 2 porque tienen ancho de 50%
+*/
+#articulos{
+    display: flex;
+    /* 
+        Agregamos flex-wrap: wrap para que los articles dentro de esta caja puedan "caer" y no queden en una línea
+    */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#articulos article{
+    width: 46%;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#publicidad img{
+    width: 60%;
+    /* 
+        Establecemos un ancho máximo y mínimo al que se ajustará la imagen
+    */
+    max-width: 500px;
+    min-width: 280px;
+}
+
+aside{
+    width: 30%;
+}
+
+aside ol{
+    width: 40%;
+    margin: 0 auto;
+}
+
+#publicidad2{
+    width: 80%;
+    margin: 0 10%;
+}
+
+footer{
+    width: 100%;
+    background-color: darkslateblue;
+    color: white;
+    padding: 40px 0;
+}

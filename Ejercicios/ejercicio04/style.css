@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+
+}
+#contenedor{
+    float: left;
+    width: 100%;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+}
+ul li a{
+    border: 2px solid rgba(85, 85, 85, 0.836);
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: rgba(85, 85, 85, 0.836);
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: rgba(85, 85, 85, 0.836);
+    color: black;
+}

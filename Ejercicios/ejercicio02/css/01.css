@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#contenedor{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+h1,h2{
+    color: red;
+    text-align: center;
+    word-spacing: 10px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.subir{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.subir:hover{
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}

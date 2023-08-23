@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+h1, h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+p{
+    color: green;
+}
+#ultimo{
+    color: blue;
+}

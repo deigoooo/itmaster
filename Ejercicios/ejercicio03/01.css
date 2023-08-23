@@ -1,0 +1,28 @@
+#contenedor{
+    margin: 0 auto;
+    width: 600px;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: small;
+    background-color: lightslategray;
+    box-sizing:border-box ;
+}
+#contenedor div{
+    float: left;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+#caja1{
+    background-color: aquamarine;
+}
+#caja2{
+    background-color: lightcoral;
+}
+#caja3{
+    background-color: lightskyblue;
+}
+#caja4{
+    background-color: lightgoldenrodyellow;
+}
