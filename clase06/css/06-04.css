@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#contenedor{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+}
+
+header h1{
+    margin: 10px 0;
+}
+
+#config{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 1.55rem;
+}
+
+main{
+    margin-top: 80px;
+    /* 
+        Para que la parte inferior del texto del main no quede por detrás del nav que está abajo le damos padding inferior de 80px
+        Los valores son en sentido horario desde arriba, girando a la derecha
+    */
+    padding: 0 10% 80px 10%;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a i{
+    font-size: 1.45rem;
+}

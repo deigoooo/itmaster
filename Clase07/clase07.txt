@@ -1,0 +1,18 @@
+* Responsive Web Design
+
+Tamaños de pantallas
+https://www.mydevice.io/
+
+Media Queries
+https://damiandeluca.com.ar/mediaqueries
+https://www.w3.org/TR/mediaqueries-3/
+https://damiandeluca.com.ar/media-queries-level-4
+https://www.w3.org/TR/mediaqueries-4/
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+Imágenes
+https://www.iconfinder.com/
+
+
+Método avanzado en HTML con img y srcset
+https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images

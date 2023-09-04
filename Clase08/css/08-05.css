@@ -1,0 +1,31 @@
+/* 
+    Creamos una animación
+    El nombre de esta animación es animar
+*/
+
+@keyframes animar {
+    /* 
+        Cambiamos:
+        ancho
+        alto
+        opacidad (de totalmente opaco a transparente) con opacity        
+        y color de fondo
+    */    
+    from{width: 700px;height: 700px;opacity:1;background-color: blue;}
+    to {width: 10px;height: 10px;opacity:0;background-color: red;}
+}
+
+#caja{
+    /* 
+        Establecemos el estado de las propiedades con el que queda una vez terminada la animación
+    */    
+    width: 10px;
+    height: 10px;
+    /* 
+        Transparente con opacidad 0
+    */
+    opacity: 0;
+    background-color: red;
+    margin: 0 auto;
+    animation: animar 5s;
+}

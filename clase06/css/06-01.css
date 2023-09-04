@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+#contenedor{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(35deg, #feffff 0%,#ddf1f9 41%,#d6dfe2 100%); 
+    /* 
+        Ajustamos el contenedor al alto de la ventana
+    */
+    height: 100vh;        
+    display: flex;
+    /* 
+        En este contexto, align-items: center centra verticalmente el contenido
+    */
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    /* 
+        Sombra al texto
+        Parámetros:
+        X Y Blur color
+        Puedo separar niveles de sombra con ,        
+    */
+    text-shadow: 0 0 5px rgb(93, 93, 93);
+    color: white;
+    margin-top: 0;
+    width: 100%;
+}
+
+#productos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.producto{
+    width: 30%;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 14px;
+    box-sizing: border-box;
+    /* 
+        Sombra a la caja
+        Parámetros:
+        X Y Blur color
+        Puedo separar niveles de sombra con ,
+        inset es sombra interior (opcional)
+    */
+    box-shadow: 2px 2px 10px silver,-2px -2px 18px rgba(62, 59, 59,0.5) inset;
+}
+
+.producto img{
+    width: 50%;
+    /* 
+        Redondeamos la imagen
+    */
+    border-radius: 50%;
+}
+
+.producto img:hover{
+    box-shadow: 2px 2px 10px rgb(150, 150, 150);
+}

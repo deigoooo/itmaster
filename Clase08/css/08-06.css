@@ -1,0 +1,29 @@
+body{
+    margin: 0
+}
+
+@keyframes colorear {
+    0%{ background-color: antiquewhite;font-size: 3rem; }
+    50%{background-color: lightpink; font-size: 4rem;}
+    80%{background-color: rgb(208, 255, 208);}
+    100%{background-color: antiquewhite;font-size: 3rem;}
+}
+
+#caja{
+    width: 100%;
+    /* 
+        Establecemos el alto de la ventaja visible
+    */
+    height: 100vh;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    /* 
+        Ejecutará la animación de manera infinita y dura 4 segundos cada vez
+    */
+    animation: colorear 4s infinite;    
+}

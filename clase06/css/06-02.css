@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-size: 2rem;
+}
+
+#contenedor{
+    width: 60%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 180px;
+    /* 
+        Fijamos la cabecera en el tope de la página
+    */
+    position: fixed;  
+    width: 100%;
+    top: 0;
+    left: 0;  
+}
+
+main{
+    /* 
+        Agregamos este margin-top para que el contenido no quede por detrás del header que está fixed
+    */
+    margin-top: 200px;
+}
+
+aside{
+    /* 
+        Posicionamos el aside a la derecha (fijo)
+    */
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+aside ul{
+    list-style: none;    
+}
+
+
+aside ul li a{
+    /* 
+        Cambiamos el color de los iconos
+    */
+    color: green;    
+}
+
+aside ul li a i{
+    /* 
+        Agrandamos los iconos
+    */
+    font-size: 3rem;
+    padding: 10px;
+}

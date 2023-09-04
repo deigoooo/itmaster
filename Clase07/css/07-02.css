@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#contenedor{
+    width: 80%;
+    margin: 0 auto;
+    /* 
+        Ajustamos el mínimo al que se adapta
+    */
+    min-width: 320px;
+}
+
+#contenedor > *{
+    float: left;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav ul li a{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: darkorange;
+}
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+footer{
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+/* 
+    Desde un ancho de 1200px de ancho y menores
+*/
+
+@media (max-width: 1200px){
+    body{
+        font-size: 1.2rem;        
+    }
+    #contenedor{
+        width: 100%;
+    }
+}
+
+/* 
+    Desde un ancho de 800px de ancho y menores
+*/
+
+@media (max-width: 800px){
+    main{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    aside{
+        /* 
+            Si preferimos ocultar el aside se puede usar display:none;
+        */
+        width: 100%;
+    }
+    aside ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    aside ul li a{
+        padding: 30px;
+        line-height: 200%;
+    }
+}
+
+@media (max-width: 420px){
+    header h1{
+        font-size: 1.6rem;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    nav ul li{
+        margin: 10px auto;  
+        width: 80%; 
+        box-sizing: border-box;     
+    }
+
+    nav ul li a{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;  
+    }
+}
