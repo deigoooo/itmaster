@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background: rgb(226,223,217);
+    background: linear-gradient(176deg, rgba(226,223,217,1) 0%, rgba(170,195,245,1) 100%);    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+     margin-bottom: 20px;
+}
+
+form{
+    padding: 38px;
+    border: 1px solid rgb(174, 168, 168);
+    border-radius: 30px;
+}
+
+form > *{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+input{
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 5px silver;
+}
+
+input:focus{
+    /* 
+        Quitamos la línea exterior cuando toma foco el elemento
+    */
+    outline: 0;
+}
+
+/* 
+    Establecemos los estilos del input type submit usando [ ]
+*/
+
+input[type="submit"]{
+    transition: 0.7s;
+    background-color: cornflowerblue;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+input[type="submit"]:hover{   
+    background-color:rgb(37, 107, 237);
+    color: rgb(222, 222, 222);
+}

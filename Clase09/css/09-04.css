@@ -1,0 +1,11 @@
+label{
+    display: block;
+    font-size: 2.4rem;
+}
+select{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+}

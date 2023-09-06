@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav {
+  float: left;
+}
+#contenedor {
+  width: 70%;
+  margin: 0 auto;
+}
+header {
+  margin-top: 80px;
+  text-align: center;
+}
+h1 {
+}
+nav {
+  background-color: navy;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+}
+nav ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav ul li {
+  text-decoration: none;
+}
+nav ul li a i {
+  color: white;
+  font-size: 1.5rem;
+}

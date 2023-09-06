@@ -1,0 +1,32 @@
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+/* 
+    Le hablamos a los elementos dentro del formulario
+*/
+
+form > *{
+    /* 
+        Pasamos los elementos interiores del form a bloque
+        Se podría usar display inline-block y establecer un ancho de 45% (por ejemplo) para que el texto del label quede al lado del input
+    */
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    /* 
+        Nos permite corregir el ancho de los input para que queden igual (en este caso)
+    */
+    box-sizing: border-box;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
