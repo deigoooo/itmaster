@@ -1,0 +1,6 @@
+Google fonts
+https://fonts.google.com/
+
+Bootstrap
+https://getbootstrap.com/
+https://getbootstrap.com/docs/5.3/getting-started/download/

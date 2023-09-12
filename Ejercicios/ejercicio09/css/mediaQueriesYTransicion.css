@@ -11,7 +11,42 @@ header {
   background-color: navy;
   color: white;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-header h1 {
-  margin: 0;
+#publicidad {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#publicidad p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+#publicidad p a:hover {
+  color: red;
+}
+main h2 {
+  text-align: center;
+}
+section {
+  display: flex;
+}
+article {
+  margin: 20px;
+}
+article h3 {
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  section {
+    flex-wrap: wrap;
+  }
+  #publicidad {
+    display: none;
+  }
 }

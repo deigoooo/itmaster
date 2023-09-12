@@ -1,0 +1,9 @@
+.card{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h5{
+    color: darkslateblue;
+}

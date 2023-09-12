@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Libre+Franklin:wght@300;900&display=swap');
+
+#contenedor{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#contenedor h1{
+    font-size: 3rem;
+}
+
+#productos{
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 10px;    
+}
+
+.producto figure{
+    margin: 0;
+    padding: 0;
+}
+
+.producto h2{
+    text-align: center;
+}
+
+.producto img{
+    width: 80%;
+    margin: 10px 10%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex > *{
+    margin: 8px;
+}
+
+.btn{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-size: 1.2rem;
+    font-family: 'Hind', sans-serif;
+}
+
+/* 
+    Hablamos a los elementos que tienen las clases btn y agregar
+*/
+
+.btn.agregar{
+    background-color: darkblue;
+    color: white;
+}
+
+/* 
+    Hablamos a los elementos que tienen las clases btn y quitar
+*/
+
+.btn.quitar{
+    background-color: darkred;
+    color: white;
+}
