@@ -1,0 +1,7 @@
+<script>
+    // Buscamos la información en una URL . Luego la convertimos a JSON . Luego mostramos la información
+
+    fetch('https://jsonplaceholder.typicode.com/posts/1')
+      .then(response => response.json())
+      .then(json => console.log(json))   
+</script>

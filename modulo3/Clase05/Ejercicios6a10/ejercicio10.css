@@ -1,0 +1,11 @@
+#caja{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    transition: 2s;
+}
+
+.seleccionado{
+    background-color: red;
+    border-radius: 50%;
+}

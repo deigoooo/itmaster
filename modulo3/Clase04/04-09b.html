@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas</title>
+</head>
+    <style>
+        body{
+            font-size: 2rem;
+        }
+
+        .claro{
+            background-color: white;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .oscuro{
+            background-color: black;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+        .otrotema{
+            background-color: lightblue;
+            color: brown;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .otrotema2{
+            background-color: rgb(0, 88, 117);
+            color: rgb(242, 242, 242);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+    </style>
+<body class="claro">
+    <form>
+        <input type="button" value="Tema Claro" onclick="cambiarTema('claro')">
+        <input type="button" value="Tema Oscuro" onclick="cambiarTema('oscuro')"> 
+        <input type="button" value="Tema Otro tema" onclick="cambiarTema('otrotema')">
+        <input type="button" value="Tema Otro tema 2" onclick="cambiarTema('otrotema2')"> 
+    </form>   
+    <div id="contenedor">
+        <h1>El título del Mundo</h1>
+        <h2>El subtítulo del Mundo</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, quis maxime.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui deserunt minus omnis eveniet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>    
+    <script src="04-09b.js"></script>    
+</body>
+</html>

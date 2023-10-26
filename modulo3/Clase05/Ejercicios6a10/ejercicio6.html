@@ -1,0 +1,16 @@
+<script>
+    function multiplicarPositivos(num1, num2) {
+        if (num1 > 0 && num2 > 0) {
+            const resultado = num1 * num2;
+            console.log(`El resultado de la multiplicación es: ${resultado}`);
+        } else {
+            console.log("Error: ambos números proporcionados deben ser positivos para realizar la multiplicación.");
+        }
+    }
+
+    // Ejemplos
+    multiplicarPositivos(5, 3); // Esto debería mostrar "El resultado de la multiplicación es: 15" en la consola del navegador.
+    multiplicarPositivos(-2, 4); // Esto debería mostrar "Error: Ambos números deben ser positivos para realizar la multiplicación." en la consola del navegador.
+    multiplicarPositivos(0, 7); // Esto debería mostrar "Error: Ambos números deben ser positivos para realizar la multiplicación." en la consola del navegador.
+
+</script>
