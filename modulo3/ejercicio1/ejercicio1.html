@@ -1,0 +1,22 @@
+<script>
+    // Definimos las variables nombre y apellido
+    var nombre = "Damián";
+    var apellido = "De Luca";
+
+    // Validamos las condiciones de la consigna
+    if (nombre.length >= 3 && apellido.length >= 3) {
+        // Ambas variables cumplen con la consigna
+        console.log("Nombre:", nombre);
+        console.log("Apellido:", apellido);
+        console.log("Mensaje de éxito: ambas variables cumplen con la consigna.");
+    } else if (nombre.length < 3 && apellido.length < 3) {
+        // Ninguna de las variables cumple con la consigna
+        console.log("Error: tanto el nombre como el apellido no cumplen con la consigna.");
+    } else if (nombre.length < 3) {
+        // El nombre no cumple con la consigna
+        console.log("Error: El nombre no cumple con la consigna.");
+    } else {
+        // El apellido no cumple con la consigna
+        console.log("Error: El apellido no cumple con la consigna.");
+    }    
+</script>
